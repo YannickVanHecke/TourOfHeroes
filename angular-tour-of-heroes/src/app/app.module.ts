@@ -17,4 +17,7 @@ import { HeroesComponent } from './heroes/heroes.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule
+{
+  title = 'Tour of heroes';
+}
