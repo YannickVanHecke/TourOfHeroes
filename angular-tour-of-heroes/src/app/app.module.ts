@@ -7,8 +7,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 
-import {HeroService} from './hero.service';
-import {MessageService} from './message.service';
+import { HeroService } from './hero.service';
+import { MessageService } from './message.service';
 import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
@@ -23,8 +23,8 @@ import { AppRoutingModule } from './/app-routing.module';
     FormsModule,
     AppRoutingModule
   ],
-  providers: [ HeroService, MessageService ],
+  providers: [HeroService, MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule
-{}
+{ }
